@@ -1,0 +1,122 @@
+/* Created by https://github.com/niraj998 */
+
+$black: #2c3e50;
+$black1: #34495e;
+$white: #ecf0f1;
+$grey: #95a5a6;
+$grey1: #7f8c8d;
+$blue: #3498db;
+$cyan: #1abc9c;
+$yellow: #f1c40f;
+$purple: #9b59b6;
+$green: #2ecc71;
+$orange: #f39c12;
+$red: #e74c3c;
+$pink: #e74c3c;
+
+window {
+background: $black;
+}
+
+button {
+border: 0px;
+background: none;
+}
+
+/************* workspaces ***********/
+.works {
+background-color: $black1;
+padding: 0;
+border-radius: 8px 8px 8px 8px;
+}
+
+/* unoccupied */
+.0 {
+color: $grey;
+}
+/* occupied */
+.01, .02, .03, .04, .05, .06 {
+color: $white;
+}
+
+/* focused */
+
+.011 {
+color: $orange;
+}
+.022 {
+color: $pink;
+}
+.033 {
+color: $yellow;
+}
+.044 {
+color: $green;
+}
+.055 {
+color: $blue;
+}
+.066 {
+color: $white;
+}
+
+
+.jetbrain {
+font-family: JetBrainsMono Nerd Font;
+font-size: 25;
+}
+
+.blue {
+color: $blue;
+}
+
+.pink {
+color: $pink;
+}
+
+.green {
+color: $green;
+}
+.yellow {
+color: $yellow;
+}
+.orange {
+color: $orange;
+}
+.red {
+color: $red;
+}
+
+.control {
+font-family: JetBrainsMono Nerd Font;
+font-size: 22;
+background-color: $black1;
+border-radius: 10px 10px 10px 10px;
+}
+
+.powermenu {
+font-family: JetBrainsMono Nerd Font;
+font-size: 23;
+}
+
+.stime {
+font-family: JetBrainsMono Nerd Font;
+font-size: 18;
+background-color: $black1;
+border-radius: 10px 10px 10px 10px;
+}
+
+scale trough {
+  all: unset;
+  background-color: $black;
+  border-radius: 10px;
+  min-height: 80px;
+  min-width: 8px;
+}
+
+.control scale trough highlight {
+  all: unset;
+  background-color: $blue;
+  border-radius: 10px;
+}
+
