@@ -63,7 +63,6 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 # Run EWW.
 $HOME/.local/bin/eww -c $HOME/.config/eww/bar --restart open bar &
-sh $HOME/.config/eww/sidebar/scripts/getWeather &
 
 # Run notification daemon.
 dunst --config $HOME/.config/dunst/dunstrc &
